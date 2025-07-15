@@ -1,4 +1,5 @@
 baseURL = 'https://example.org/'
+title = "Stichting Jasmijn"
 languageCode = 'en-us'
-title = 'My New Hugo Site'
 theme = "ananke"
+publishDir = "docs"
