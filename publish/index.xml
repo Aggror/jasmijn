@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Stichting Jasmijn</title>
-    <link>https://aggror.github.io/jasmijn/</link>
+    <link>http://localhost:1313/jasmijn/</link>
     <description>Recent content on Stichting Jasmijn</description>
     <generator>Hugo</generator>
     <language>nl</language>
-    <atom:link href="https://aggror.github.io/jasmijn/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/jasmijn/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
