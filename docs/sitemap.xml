@@ -2,10 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/jasmijn/categories/</loc>
+    <loc>https://aggror.github.io/jasmijn/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/jasmijn/</loc>
+    <loc>https://aggror.github.io/jasmijn/</loc>
   </url><url>
-    <loc>http://localhost:1313/jasmijn/tags/</loc>
+    <loc>https://aggror.github.io/jasmijn/tags/</loc>
   </url>
 </urlset>
