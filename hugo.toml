@@ -3,4 +3,4 @@ title = "Stichting Jasmijn"
 languageCode = 'nl'
 defaultContentLanguage = 'nl'
 theme = "ananke"
-publishDir = "docs"
+publishDir = "public"
