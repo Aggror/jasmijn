@@ -1,5 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = "https://aggror.github.io/jasmijn/"
 title = "Stichting Jasmijn"
-languageCode = 'en-us'
+languageCode = 'nl'
+defaultContentLanguage = 'nl'
 theme = "ananke"
 publishDir = "docs"
