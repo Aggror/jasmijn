@@ -1,0 +1,41 @@
+backend:
+  name: github
+  repo: aggror/jasmijn # Replace with your GitHub username/repo
+  branch: main # Branch to update (optional; defaults to master)
+
+# These lines should match your site URL
+site_url: https://aggror.github.io/jasmijn
+display_url: https://aggror.github.io/jasmijn
+
+# When using GitHub, Netlify CMS needs to use a proxy server for local development
+local_backend: true
+
+# Media and public folders
+media_folder: "static/images/uploads" # Media will be stored in this folder in the repo
+public_folder: "/images/uploads" # The src attribute for uploaded media
+
+# Content collections
+collections:
+  - name: "ourcats"
+    label: "Onze katten"
+    folder: "content/cats"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Name", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "featured_image", widget: "image", required: false}
+      - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "socialise"
+    label: "Socialiseren"
+    folder: "content/socialise"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Name", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "featured_image", widget: "image", required: false}
+      - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
